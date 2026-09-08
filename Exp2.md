@@ -12,15 +12,38 @@ Algorithm:
 7.	Return 0
  
 Program:
+```
+#include <stdio.h>
+#include <string.h>
 
-//type your code here
+struct Person {
+    char name[50];
+    int age;
+};
+
+int main() {
+    struct Person p;
+    scanf("%d", &p.age);
+    scanf("%s", p.name);
+    printf("Age:%d\n", p.age);
+    printf("Name:%svaccine:%d\n",p.name,p.age);
+    
+   
+    if(p.age>6)
+    printf("eligibility:yes");
+    else
+    printf("eligibility:no");
+    return 0;
+}
+```
 
 
 
 
 Output:
 
-//paste your output screenshots here
+<img width="750" height="441" alt="image" src="https://github.com/user-attachments/assets/9e375751-1e57-4bc5-b7c3-8cdc1508f835" />
+
 
 
 
