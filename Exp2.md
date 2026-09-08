@@ -13,14 +13,37 @@ Algorithm:
  
 Program:
 
-//type your code here
+``` #include <stdio.h>
+#include <string.h>
+
+struct Person {
+    char name[50];
+    int age;
+};
+
+int main() {
+    struct Person p;
+    scanf("%d", &p.age);
+    scanf("%s", p.name);
+    printf("Age:%d\n", p.age);
+    printf("Name:%svaccine:%d\n",p.name,p.age);
+    
+   
+    if(p.age>6)
+    printf("eligibility:yes");
+    else
+    printf("eligibility:no");
+    return 0;
+}
+```
 
 
 
 
 Output:
+<img width="750" height="441" alt="image" src="https://github.com/user-attachments/assets/85e338b0-f15e-43b2-8e0a-939bd86085c6" />
 
-//paste your output screenshots here
+
 
 
 
